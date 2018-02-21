@@ -118,9 +118,9 @@ sspropc may also be invoked with a single input argument, to specify options spe
 
 *gamma*, scalar, A real number that describes the nonlinear coefficient of the fiber, which is related to the mode effective area and the nonlinear refractive index n2.
 
-*tr*, scalar, The Raman response time. This parameter is not available in the Matlab m-file version. (default = 0)
+*tr*, scalar, The Raman response time. (default = 0)
 
-*t0*, scalar, The optical cycle time (= 1/f). This parameter is not available in the Matlab m-file version. (default = 0)
+*t0*, scalar, The optical cycle time (= 1/f).  (default = 0)
 
 *maxiter*, scalar (int), The maximum number of iterations to make per step. If the solution does not converge to the desired tolerance within this number of iterations, a warning message will be generated. Usually this means that the chosen stepsize was too small. (default = 4)
 
