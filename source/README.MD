@@ -20,7 +20,7 @@ Please refer to
 
 for guidance.
 
-# Compile Guide Additional Note for Windows 10 64-bit & Newer Versions of MATLAB
+# Additional Note for Windows 10 64-bit & Newer Versions of MATLAB
 1. My recommended compiler for Windows 10 and newer versions of MATLAB is **NOT** MinGW and GNUMEX, but Windows 10 SDK or Microsoft Visual Studio 2015 C++ Compiler.
 
 2. Windows 10 SDK: https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
