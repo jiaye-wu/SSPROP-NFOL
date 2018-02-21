@@ -6,6 +6,8 @@ Version 2.0.20180221-AMD64
 2. Update compiled MEXW64 files.
 3. Full support for 64-Bit, 32-Bit is no longr supported.
 4. Update compile guide.
+5. Backward compatibility with older matlab in ./windows.legacy
+6. Add compiled files with compatibility with Linux in ./linux
 
 ************************************************************
 Version 1.2.20180211-alpha
