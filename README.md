@@ -41,7 +41,7 @@ Download the repository and place it in a fixed path on local drive, name it as 
 
 Then include this folder but **NOT** its sub-folders, into the MATLAB path settings. If you included the sub-folders, conflicts might occur. If you would like to use dll legacy support for Windows or mexglx support for Linux, just copy those files into the root folder.
 
-# Guide to Vector Version (sspropvc.mexw64)
+# SSPROP-NFOL Vector sspropvc.mexw64
 The vector version of the SSPROP-NFOL (sspropvc.mexw64) solves the coupled nonlinear Schrödinger equations for propagation in a birefringent fiber. The code can model birefringence, differential group delay (PMD), polarization-dependent dispersion, and polarization dependent loss, all in the context of nonlinear propagation.
 
 The user may choose from two different algorithms, depending on whether the birefringent beat length is shorter or longer than the nonlinear length.
@@ -61,7 +61,7 @@ The last four arguments assume a default value if they are left unspecified.
 The parameter definations are the same with original SSPROP, ref: by Photonics Research Lab, Maryland University
 https://www.photonics.umd.edu/software/ssprop/vector-version/
 
-# Guide to Scalar Version (sspropc.mexw64)
+# SSPROP-NFOL Scalar sspropc.mexw64
 The scalar version of the SSPROP solves the scalar nonlinear Schrödinger equation using the symmetrized split-step Fourier method. It allows for almost arbitrary specification of the dispersion and loss, and it includes a simple approximation for the *intrapulse Raman response time* and the *optical self-steepening effect*.
 
 The compiled mex file (sspropc.mexw64) can be invoked from Matlab using one of the following forms:
@@ -89,10 +89,15 @@ https://www.photonics.umd.edu/software/ssprop/scalar-version/
 **Gaussian Pulse**
 
 `u = gaussian (t);`
+
 `u = gaussian (t,t0);`
+
 `u = gaussian (t,t0,FWHM);`
+
 `u = gaussian (t,t0,FWHM,P0);`
+
 `u = gaussian (t,t0,FWHM,P0,m);`
+
 `u = gaussian (t,t0,FWHM,P0,m,C);`
 
 t     vector of times at which to compute u
@@ -105,9 +110,13 @@ C     chirp parameter (default = 0)
 **Sech Pulse**
 
 `u = sechpulse (t);`
+
 `u = sechpulse (t,t0);`
+
 `u = sechpulse (t,t0,FWHM);`
+
 `u = sechpulse (t,t0,FWHM,P0);`
+
 `u = sechpulse (t,t0,FWHM,P0,C);`
 
 t     vector of times at which to compute u
@@ -119,8 +128,11 @@ C     chirp parameter (default = 0)
 **Soliton Pulse**
 
 `u = solitonpulse (t);`
+
 `u = solitonpulse (t,t0);`
+
 `u = solitonpulse (t,t0,epsilon);`
+
 `u = solitonpulse (t,t0,epsilon,N);`
 
 t         vector of times at which to compute u
