@@ -1,7 +1,7 @@
 # SSPROP-NFOL
 This repository is established to open-source the enhanced version of SSPROP originally by Photonics Research Laboratory, Maryland University (https://www.photonics.umd.edu/software/ssprop/). 
 
-SSPROP-NFOL is a **ready-to-use SSPROP** compiled distribution for **Windows 10 64-Bit PCs/Tablets** and **newer MATLAB 64-Bit versions above 7.5** (test environment 9.1.0.441655 R2016b, Windows 10 Fall Creator Update 1709). 
+SSPROP-NFOL is a **ready-to-use SSPROP** compiled distribution for **Windows 10 64-Bit PCs/Tablets** and **newer MATLAB 64-Bit versions above 7.5** (test environment MATLAB 64-Bit 9.1.0.441655 R2016b, Windows 10 Fall Creator Update 1709). 
 
 This project is used in Laboratory of Nonlinear Fiber Optics, School of Electronic and Computer Engineering, Peking University. The SSPROP-NFOL is maintained by Terence J. Wu.
 
@@ -11,9 +11,9 @@ This repository (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) shows how t
 They can be use as a template or reference in your scientific research. Additional terms of use are listed in https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode .
 
 # License
-SSPROP-NFOL codes are licensed under GPL v3.
+SSPROP-NFOL codes are licensed under **GPL v3**.
 
-SSPROP-NFOL-DemoCode (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) are licensed under Apache License 2.0 and additional terms included in README.md. If example files are used or refered to in a scientific project, the Additional Term of Use below should be followed: https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode/blob/master/README.md
+SSPROP-NFOL-DemoCode (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) are licensed under **Apache License 2.0** and **additional terms** included in README.md. If example files are used or refered to in a scientific project, the Additional Term of Use below should be followed: https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode/blob/master/README.md
 
 # Authors
 The original version of SSPROP is by Maryland University (https://www.photonics.umd.edu/software/ssprop/), which is now in the SSPROP-Original branch.
