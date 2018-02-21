@@ -100,12 +100,17 @@ https://www.photonics.umd.edu/software/ssprop/scalar-version/
 
 `u = gaussian (t,t0,FWHM,P0,m,C);`
 
-t     vector of times at which to compute u
-t0    center of pulse (default = 0)
-FWHM  full-width at half-intensity of pulse (default = 1)
-P0    peak intensity (|u|^2 at t=t0) of pulse (default = 1)
-m     Gaussian order (default = 1)
-C     chirp parameter (default = 0)
+*t*     vector of times at which to compute u
+
+*t0*    center of pulse (default = 0)
+
+*FWHM*  full-width at half-intensity of pulse (default = 1)
+
+*P0*    peak intensity (|u|^2 at t=t0) of pulse (default = 1)
+
+*m*     Gaussian order (default = 1)
+
+*C*     chirp parameter (default = 0)
 
 **Sech Pulse**
 
@@ -119,11 +124,15 @@ C     chirp parameter (default = 0)
 
 `u = sechpulse (t,t0,FWHM,P0,C);`
 
-t     vector of times at which to compute u
-t0    center of pulse (default = 0)
-FWHM  full-width at half-intensity of pulse (default = 1)
-P0    peak intensity (|u|^2 at t=t0) of pulse (default = 1)
-C     chirp parameter (default = 0)
+*t*     vector of times at which to compute u
+
+*t0*    center of pulse (default = 0)
+
+*FWHM*  full-width at half-intensity of pulse (default = 1)
+
+*P0*    peak intensity (|u|^2 at t=t0) of pulse (default = 1)
+
+*C*     chirp parameter (default = 0)
 
 **Soliton Pulse**
 
@@ -135,11 +144,13 @@ C     chirp parameter (default = 0)
 
 `u = solitonpulse (t,t0,epsilon,N);`
 
-t         vector of times at which to compute u
-t0        center of pulse (default = 0)
-epsilon   scale factor for solition (default = 1)
-           note: make epsilon=2*acosh(sqrt(2)) to get FWHM = 1
-N         soliton order (default = 1)
+*t*         vector of times at which to compute u
+
+*t0*        center of pulse (default = 0)
+
+*epsilon*   scale factor for solition (default = 1), note: make epsilon=2*acosh(sqrt(2)) to get FWHM = 1
+           
+*N*         soliton order (default = 1)
 
 # My Other Open Source Scientific Research Tools
 
