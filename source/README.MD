@@ -28,7 +28,9 @@ for guidance.
 3. To convert fftw3 .def files to .lib files, use the command in lib.exe provided in Microsoft Visual Studio 2015 (C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin)
 
   lib /MACHINE:X64 /def:libfftw3-3.def
+  
   lib /MACHINE:X64 /def:libfftw3f-3.def
+  
   lib /MACHINE:X64 /def:libfftw3l-3.def
   
 use /MACHINE:X86 on 32-bit Windows AND 32-bit MATLAB.
