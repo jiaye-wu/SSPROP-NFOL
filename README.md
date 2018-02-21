@@ -6,14 +6,14 @@ SSPROP-NFOL is a **ready-to-use SSPROP** compiled distribution for **Windows 10 
 This project is used in Laboratory of Nonlinear Fiber Optics, School of Electronic and Computer Engineering, Peking University. The SSPROP-NFOL is maintained by Terence J. Wu.
 
 # SSPROP-NFOL-DemoCode
-This repository (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) shows how to utilize SSPROP-NFOL project. The demo codes reproduce many of the numerical results that are presented in Chapter 3 to Chapter 5 in Govind. P. Agrawal's book, "Nonlinear Fiber Optics", 5th Edition.
+DemoCode repository (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) shows how to utilize SSPROP-NFOL project. The demo codes reproduce many of the numerical results that are presented in Chapter 3 to Chapter 5 in Govind. P. Agrawal's book, "Nonlinear Fiber Optics", 5th Edition.
 
 They can be use as a template or reference in your scientific research. Additional terms of use are listed in https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode .
 
 # License
-SSPROP-NFOL codes are licensed under **GPL v3**.
+*SSPROP-NFOL* codes are licensed under **GPL v3**.
 
-SSPROP-NFOL-DemoCode (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) are licensed under **Apache License 2.0** and **additional terms** included in README.md. If example files are used or refered to in a scientific project, the Additional Term of Use below should be followed: https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode/blob/master/README.md
+*SSPROP-NFOL-DemoCode* (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) are licensed under **Apache License 2.0** and **additional terms** included in README.md. If example files are used or refered to in a scientific project, the Additional Term of Use below should be followed: https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode/blob/master/README.md
 
 # Authors
 The original version of SSPROP is by Maryland University (https://www.photonics.umd.edu/software/ssprop/), which is now in the SSPROP-Original branch.
