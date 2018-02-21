@@ -30,8 +30,8 @@ function [u1x,u1y] = sspropv(u0x,u0y,dt,dz,nz,alphaa,alphab,betapa,betapb,gamma,
 %                   for the two eigenstates (see note (3) below)
 % gamma           Nonlinearity coefficient
 % psp             Polarization eigenstate (PSP) of fiber, see (4)
-% method          Which method to use, either ’circular’ or ’elliptical’ 
-%                   (default = ’elliptical’, see instructions)
+% method          Which method to use, either â€™circularâ€™ or â€™ellipticalâ€™ 
+%                   (default = â€™ellipticalâ€™, see instructions)
 % maxiter         Max number of iterations per step (default = 4)
 % tol             Convergence tolerance (default = 1e-5)
 %
