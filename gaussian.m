@@ -52,4 +52,5 @@ if (nargin<2)
   t0 = 0;
 end
 
-u = sqrt(P0)*pow2(-((1+i*C)/2)*(2*(t-t0)/FWHM).^(2*m));
+% u = sqrt(P0)*pow2(-((1+i*C)/2)*(2*(t-t0)/FWHM).^(2*m));
+u = sqrt(P0)*exp(-((1+i*C)/2)*(2*(t-t0)/FWHM).^(2*m));
