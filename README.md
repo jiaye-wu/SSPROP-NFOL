@@ -41,7 +41,7 @@ Download the repository and place it in a fixed path on local drive, name it as 
 
 Then include this folder but **NOT** its sub-folders, into the MATLAB path settings. If you included the sub-folders, conflicts might occur. If you would like to use dll legacy support for Windows or mexglx support for Linux, just copy those files into the root folder.
 
-If "invalid error" occurs while calling the mexw64 function, run the following lines:
+If "invalid error" occurs while calling the mexw64 function, run the following lines and ignore the ouput warnings:
 
 `loadlibrary('libfftw3-3.dll','fftw3.h')`
 
