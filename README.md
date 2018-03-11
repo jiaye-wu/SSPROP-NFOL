@@ -44,7 +44,9 @@ Then include this folder but **NOT** its sub-folders, into the MATLAB path setti
 If "invalid error" occurs while calling the mexw64 function, run the following lines and they will remain effective during the whole session until MATLAB is closed:
 
 `warning off`
+
 `loadlibrary('libfftw3-3.dll','libfftw3.h')`
+
 `warning on`
 
 # SSPROP-NFOL Vector sspropvc.mexw64
