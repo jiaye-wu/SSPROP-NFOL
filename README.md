@@ -41,9 +41,11 @@ Download the repository and place it in a fixed path on local drive, name it as 
 
 Then include this folder but **NOT** its sub-folders, into the MATLAB path settings. If you included the sub-folders, conflicts might occur. If you would like to use dll legacy support for Windows or mexglx support for Linux, just copy those files into the root folder.
 
-If "invalid error" occurs while calling the mexw64 function, run the following lines and ignore the ouput warnings:
+If "invalid error" occurs while calling the mexw64 function, run the following lines and they will remain effective during the whole session until MATLAB is closed:
 
-`loadlibrary('libfftw3-3.dll','fftw3.h')`
+`warning off`
+`loadlibrary('libfftw3-3.dll','libfftw3.h')`
+`warning on`
 
 # SSPROP-NFOL Vector sspropvc.mexw64
 The vector version of the SSPROP-NFOL (sspropvc.mexw64) solves the coupled nonlinear Schrödinger equations for propagation in a birefringent fiber. The code can model birefringence, differential group delay (PMD), polarization-dependent dispersion, and polarization dependent loss, all in the context of nonlinear propagation.
