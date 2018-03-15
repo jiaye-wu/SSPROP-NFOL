@@ -1,6 +1,6 @@
 function Tfwhm = T02FWHM(type,T0,C,m)
   
-% This function converts T0 (1/e intensity width) to T-fwhm (full width half maximum)
+% This function converts T0 (half width at 1/e intensity) to T-fwhm (full width at half maximum intensity)
 % This is a part of SSPROP-NFOL: https://github.com/TerenceWSK/SSPROP-NFOL
 % the specified parameters:
 %
@@ -16,7 +16,7 @@ function Tfwhm = T02FWHM(type,T0,C,m)
 % INPUT:
 % 
 % type  string parameter that determine pulse type, 'gaussian' or 'sech'('sechpulse')
-% T0    1/e intensity width
+% T0    half width at 1/e intensity
 % C     chirp parameter (default = 0)
 % m     Gaussian order (default = 1), does not affect sechpulse.
 % 
