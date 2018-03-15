@@ -142,21 +142,21 @@ https://www.photonics.umd.edu/software/ssprop/scalar-version/
 
 `u = gaussian (t);`
 
-`u = gaussian (t,t0);`
+`u = gaussian (t,tc);`
 
-`u = gaussian (t,t0,FWHM);`
+`u = gaussian (t,tc,T0);`
 
-`u = gaussian (t,t0,FWHM,P0);`
+`u = gaussian (t,tc,T0,P0);`
 
-`u = gaussian (t,t0,FWHM,P0,m);`
+`u = gaussian (t,tc,T0,P0,m);`
 
-`u = gaussian (t,t0,FWHM,P0,m,C);`
+`u = gaussian (t,tc,T0,P0,m,C);`
 
 *t*     vector of times at which to compute u
 
-*t0*    center of pulse (default = 0)
+*tc*    center of pulse (default = 0)
 
-*FWHM*  full-width at half-intensity of pulse (default = 1)
+*T0*    half width at 1/e intensity of pulse (default = 1)
 
 *P0*    peak intensity (|u|^2 at t=t0) of pulse (default = 1)
 
@@ -168,19 +168,19 @@ https://www.photonics.umd.edu/software/ssprop/scalar-version/
 
 `u = sechpulse (t);`
 
-`u = sechpulse (t,t0);`
+`u = sechpulse (t,tc);`
 
-`u = sechpulse (t,t0,FWHM);`
+`u = sechpulse (t,tc,T0);`
 
-`u = sechpulse (t,t0,FWHM,P0);`
+`u = sechpulse (t,tc,T0,P0);`
 
-`u = sechpulse (t,t0,FWHM,P0,C);`
+`u = sechpulse (t,tc,T0,P0,C);`
 
 *t*     vector of times at which to compute u
 
-*t0*    center of pulse (default = 0)
+*tc*    center of pulse (default = 0)
 
-*FWHM*  full-width at half-intensity of pulse (default = 1)
+*T0*    half width at 1/e intensity of pulse (default = 1)
 
 *P0*    peak intensity (|u|^2 at t=t0) of pulse (default = 1)
 
@@ -190,15 +190,15 @@ https://www.photonics.umd.edu/software/ssprop/scalar-version/
 
 `u = solitonpulse (t);`
 
-`u = solitonpulse (t,t0);`
+`u = solitonpulse (t,tc);`
 
-`u = solitonpulse (t,t0,epsilon);`
+`u = solitonpulse (t,tc,epsilon);`
 
-`u = solitonpulse (t,t0,epsilon,N);`
+`u = solitonpulse (t,tc,epsilon,N);`
 
 *t*         vector of times at which to compute u
 
-*t0*        center of pulse (default = 0)
+*tc*        center of pulse (default = 0)
 
 *epsilon*   scale factor for solition (default = 1), note: make epsilon=2*acosh(sqrt(2)) to get FWHM = 1
            
