@@ -1,4 +1,4 @@
-function u = solitonpulse(t,t0,epsilon,N)
+function u = solitonpulse(t,tc,epsilon,N)
   
 % This function computes a soliton (sech) amplitude pulse with
 % the following parameters:
@@ -8,14 +8,14 @@ function u = solitonpulse(t,t0,epsilon,N)
 % USAGE:
 % 
 % u = solitonpulse (t);
-% u = solitonpulse (t,t0);
-% u = solitonpulse (t,t0,epsilon);
-% u = solitonpulse (t,t0,epsilon,N);
+% u = solitonpulse (t,tc);
+% u = solitonpulse (t,tc,epsilon);
+% u = solitonpulse (t,tc,epsilon,N);
 % 
 % INPUT:
 % 
 % t         vector of times at which to compute u
-% t0        center of pulse (default = 0)
+% tc        center of pulse (default = 0)
 % epsilon   scale factor for solition (default = 1)
 %           note: make epsilon=2*acosh(sqrt(2)) to get FWHM = 1
 % N         soliton order (default = 1)
@@ -32,8 +32,8 @@ if (nargin < 3)
   epsilon = 1;
 end
 if (nargin < 2)
-  t0 = 0;
+  tc = 0;
 end
 
-u = N * epsilon * sech(epsilon * (t-t0));
+u = N * epsilon * sech(epsilon * (t-tc));
 
