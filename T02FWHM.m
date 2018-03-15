@@ -25,10 +25,10 @@ function Tfwhm = T02FWHM(type,T0,C,m)
 % Tfwhm: Full width half maximum value of the pulse
 %
   
-if (nargin<4)
+if (nargin < 4)
   m = 1;
 end
-if (nargin<3)
+if (nargin < 3)
   C = 0;
 end
 
