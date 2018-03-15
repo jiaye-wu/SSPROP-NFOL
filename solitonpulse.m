@@ -25,15 +25,15 @@ function u = solitonpulse(t,t0,epsilon,N)
 % u         vector of the same size as t, representing pulse
 %           amplitude
   
-if (nargin<4)
+if (nargin < 4)
   N = 1;
 end
-if (nargin<3)
+if (nargin < 3)
   epsilon = 1;
 end
-if (nargin<2)
+if (nargin < 2)
   t0 = 0;
 end
 
-u = N*epsilon*sech(epsilon*(t-t0));
+u = N * epsilon * sech(epsilon * (t-t0));
 
