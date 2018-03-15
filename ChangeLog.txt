@@ -1,4 +1,13 @@
 ************************************************************
+Version 3.5.20180315-AMD64
+************************************************************
+
+1. Improve numerical accuracy on gaussian pulse generation.
+2. Improve numerical accuracy on sech pulse generation.
+3. Minor bug-fixes on soliton pulse and parameter description.
+4. Add support for T0 and T-fwhm conversion.
+
+************************************************************
 Version 2.9.20180311-AMD64
 ************************************************************
 
