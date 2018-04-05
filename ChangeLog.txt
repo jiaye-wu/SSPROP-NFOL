@@ -1,4 +1,12 @@
 ************************************************************
+Version 3.8.20180405-AMD64
+************************************************************
+
+1. Improve solintonpulse() description.
+2. Add support for T0 calculation of soliton pulse.
+3. Add support for FWHM calculation of soliton pulse.
+
+************************************************************
 Version 3.5.20180315-AMD64
 ************************************************************
 
