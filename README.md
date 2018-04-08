@@ -3,7 +3,7 @@ SSPROP-NFOL is the enhanced Windows AMD64/X64 (compiled) distribution of SSPROP,
 
 SSPROP-NFOL is also a general-purpose symmetrized split-step software routine that can be invoked directly from Matlab to solve the nonlinear Schrödinger equation. It guarantees the same efficiency as SSPROP originally by Photonics Research Laboratory, Maryland University (https://www.photonics.umd.edu/software/ssprop/). 
 
-SSPROP-NFOL is a **ready-to-use SSPROP distribution** compiled for **Windows 10 64-Bit PCs/Tablets** and **newer MATLAB 64-Bit versions above 7.5** (test environment MATLAB 64-Bit 9.1.0.441655 R2016b, Windows 10 Fall Creator Update 1709). It is ready to use right out-of-the-box. It provides propagation algorithm command using *MATLAB MEXW64* and supports *intrapulse Raman scattering* & *self-steepening effect*. Other improvements can be found in Changelog.txt.
+SSPROP-NFOL is a **ready-to-use SSPROP distribution** compiled for **Windows 10 64-Bit PCs/Tablets** and **newer MATLAB 64-Bit versions above 7.5** (test environment MATLAB 64-Bit 9.1.0.441655 R2016b, Windows 10 Spring Creator Update 1803) **along with many exclusive new features and useful functions**. It is ready to use right out-of-the-box. It provides propagation algorithm command using *MATLAB MEXW64* and supports *intrapulse Raman scattering* & *self-steepening effect*. Other improvements can be found in Changelog.txt.
 
 SSPROP-NFOL is an open-source software under GPL v3.
 
