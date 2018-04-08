@@ -32,12 +32,12 @@ if (nargin < 3)
   C = 0;
 end
 
-if type == 'gaussian'
+if strcmp('gaussian',type)
     T0 = Tfwhm / (2 * (log(2) / (1 + 1j*C)) ^(1 / (2*m)));
 end
-if type == 'sech' || type == 'sechpulse'
+if strcmp('sech',type) || strcmp('sechpulse',type)
     T0 = Tfwhm / (2 * log(1 + sqrt(2)));
 end
-if type ~= 'sech' && type ~= 'sechpulse' && type ~= 'gaussian'
+if ~strcmp('gaussian',type) && ~strcmp('sech',type) && ~strcmp('sechpulse',type)
     disp('Pulse type not supported.')
 end
