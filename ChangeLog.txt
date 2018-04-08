@@ -1,4 +1,12 @@
 ************************************************************
+Version 4.0.20180408-AMD64
+************************************************************
+
+1. Add support for calculating T0 and fwhm for arbitrary pulses.
+2. Bug fix for pulse type judgement on T02FWHM.
+3. Bug fix for pulse type judgement on FWHM2T0.
+
+************************************************************
 Version 3.8.20180405-AMD64
 ************************************************************
 
