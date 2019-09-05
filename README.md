@@ -25,9 +25,10 @@ The **SSPROP-NFOL** is maintained by Terence J. Wu, School of Electronic and Com
 The **SSPROP-NFOL-DemoCode** is maintained by Terence J. Wu, School of Electronic and Computer Engineering, Peking University (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode).
 
 # Citation & Reference
-The author of SSPROP-NFOL kindly invite you to cite the following works if either SSPROP-NFOL or SSPROP-NFOL-Examples has helped you to accomplish scientific researches and publish papers:
-1. J. Wu and X. Yang. Opt. Express 25(22): 27724-27735. DOI: 10.1364/OE.25.027724
-2. J. Wu, Y. Gong, et. al., Chinese Phys. B 26(10): 104201. DOI: 10.1088/1674-1056/26/10/104201
+The author of SSPROP-NFOL kindly request you to cite the following works if either SSPROP-NFOL or SSPROP-NFOL-Examples has helped you accomplish scientific researches and publish papers.
+Please refer to the author's academic profile and select relevant works to cite.
+https://www.researchgate.net/profile/Jiaye_Wu
+https://scholar.google.com/citations?user=D2n8tswAAAAJ
 
 # About the original SSPROP
 One of the most fundamental equations in optical communications is the nonlinear Schrödinger equation, which governs the propagation of optical signals in dispersive, nonlinear fibers. Unfortunately, in all but a few special cases, the nonlinear Schrödinger equation does not have analytic solutions, and must be solved numerically.
