@@ -27,7 +27,9 @@ The **SSPROP-NFOL-DemoCode** is maintained by Terence J. Wu, School of Electroni
 # Citation & Reference
 The author of SSPROP-NFOL kindly request you to cite the following works if either SSPROP-NFOL or SSPROP-NFOL-Examples has helped you accomplish scientific researches and publish papers.
 Please refer to the author's academic profile and select relevant works to cite.
+
 https://www.researchgate.net/profile/Jiaye_Wu
+
 https://scholar.google.com/citations?user=D2n8tswAAAAJ
 
 # About the original SSPROP
