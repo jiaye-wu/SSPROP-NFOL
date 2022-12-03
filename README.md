@@ -1,5 +1,5 @@
 # SSPROP-NFOL
-SSPROP-NFOL is the enhanced Windows AMD64/X64 (compiled) distribution of SSPROP, maintained and used by Terence J. Wu, Laboratory of Nonlinear Fiber Optics, School of Electronic and Computer Engineering, Peking University. 
+SSPROP-NFOL is the enhanced Windows AMD64/X64 (compiled) distribution of SSPROP, maintained and personally used by the author. 
 
 SSPROP-NFOL is also a general-purpose symmetrized split-step software routine that can be invoked directly from Matlab to solve the nonlinear Schrödinger equation. It guarantees the same efficiency as SSPROP originally by Photonics Research Laboratory, Maryland University (https://www.photonics.umd.edu/software/ssprop/). 
 
@@ -20,12 +20,12 @@ SSPROP-NFOL-DemoCode are licensed under **Apache License 2.0** along with **"Add
 # Authors
 The **original version of SSPROP** is by Photonics Research Laboratory, Maryland University (https://www.photonics.umd.edu/software/ssprop/).
 
-The **SSPROP-NFOL** is maintained by Terence J. Wu, School of Electronic and Computer Engineering, Peking University (https://github.com/TerenceWSK/SSPROP-NFOL), which is in the master branch.
+The **SSPROP-NFOL** is maintained by TerenceWSK (https://github.com/TerenceWSK/SSPROP-NFOL), which is in the master branch.
 
-The **SSPROP-NFOL-DemoCode** is maintained by Terence J. Wu, School of Electronic and Computer Engineering, Peking University (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode).
+The **SSPROP-NFOL-DemoCode** is maintained by TerenceWSK (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode).
 
 # Citation & Reference
-The author of SSPROP-NFOL kindly request you to cite the following works if either SSPROP-NFOL or SSPROP-NFOL-Examples has helped you accomplish scientific researches and publish papers.
+The author of SSPROP-NFOL kindly asks you to cite the following works if either SSPROP-NFOL or SSPROP-NFOL-Examples has helped you accomplish scientific researches and publish papers.
 Please refer to the author's academic profile and select relevant works to cite.
 
 https://www.researchgate.net/profile/Jiaye_Wu
