@@ -8,21 +8,21 @@ SSPROP-NFOL is a **ready-to-use SSPROP distribution** compiled for **Windows 10 
 SSPROP-NFOL is an open-source software under GPL v3.
 
 # SSPROP-NFOL-DemoCode
-DemoCode repository (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) shows how to utilize SSPROP-NFOL project. The demo codes reproduce many of the numerical results that are presented in Chapter 3 to Chapter 5 in Govind. P. Agrawal's book, "Nonlinear Fiber Optics", 5th Edition.
+DemoCode repository (https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode) shows how to utilize SSPROP-NFOL project. The demo codes reproduce many of the numerical results that are presented in Chapter 3 to Chapter 5 in Govind. P. Agrawal's book, "Nonlinear Fiber Optics", 5th Edition.
 
-SSPROP-NFOL-DemoCode are licensed under **Apache License 2.0** along with **"Additional Term of Use"** (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode/blob/master/README.md). **Please follow these reqirement is you use it in your scientific researches**.
+SSPROP-NFOL-DemoCode are licensed under **Apache License 2.0** along with **"Additional Term of Use"** (https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode/blob/master/README.md). **Please follow these reqirement is you use it in your scientific researches**.
 
 # License
 *SSPROP-NFOL* codes are licensed under **GPL v3**.
 
-*SSPROP-NFOL-DemoCode* (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode) are licensed under **Apache License 2.0** and **additional terms** included in README.md. If example files are used or refered to in a scientific project, the Additional Term of Use below should be followed: https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode/blob/master/README.md
+*SSPROP-NFOL-DemoCode* (https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode) are licensed under **Apache License 2.0** and **additional terms** included in README.md. If example files are used or refered to in a scientific project, the Additional Term of Use below should be followed: https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode/blob/master/README.md
 
 # Authors
 The **original version of SSPROP** is by Photonics Research Laboratory, Maryland University (https://www.photonics.umd.edu/software/ssprop/).
 
-The **SSPROP-NFOL** is maintained by TerenceWSK (https://github.com/TerenceWSK/SSPROP-NFOL), which is in the master branch.
+The **SSPROP-NFOL** is maintained by jiaye-wu (https://github.com/jiaye-wu/SSPROP-NFOL), which is in the master branch.
 
-The **SSPROP-NFOL-DemoCode** is maintained by TerenceWSK (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode).
+The **SSPROP-NFOL-DemoCode** is maintained by jiaye-wu (https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode).
 
 # Citation & Reference
 The author of SSPROP-NFOL kindly asks you to cite the following works if either SSPROP-NFOL or SSPROP-NFOL-Examples has helped you accomplish scientific researches and publish papers.
@@ -209,6 +209,6 @@ https://www.photonics.umd.edu/software/ssprop/scalar-version/
 
 # My Other Open Source Scientific Research Tools
 
-1) SSPROP-NFOL-DemoCode (https://github.com/TerenceWSK/SSPROP-NFOL-DemoCode):  Demonstrations of SSPROP-NFOL project.
+1) SSPROP-NFOL-DemoCode (https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode):  Demonstrations of SSPROP-NFOL project.
 
 2) Coming soon
