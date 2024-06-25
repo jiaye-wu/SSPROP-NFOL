@@ -211,4 +211,4 @@ https://www.photonics.umd.edu/software/ssprop/scalar-version/
 
 1) SSPROP-NFOL-DemoCode (https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode):  Demonstrations of SSPROP-NFOL project.
 
-2) Coming soon
+2) QUICKphotonics (https://github.com/jiaye-wu/QUICKphotonics): Intuitive commandline style unit conversion for optics/photonics.
