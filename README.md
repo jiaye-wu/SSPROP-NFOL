@@ -10,8 +10,6 @@ SSPROP-NFOL is an open-source software under GPL v3.
 # SSPROP-NFOL-DemoCode
 DemoCode repository (https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode) shows how to utilize SSPROP-NFOL project. The demo codes reproduce many of the numerical results that are presented in Chapter 3 to Chapter 5 in Govind. P. Agrawal's book, "Nonlinear Fiber Optics", 5th Edition.
 
-SSPROP-NFOL-DemoCode are licensed under **Apache License 2.0** along with **"Additional Term of Use"** (https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode/blob/master/README.md). **Please follow these reqirement is you use it in your scientific researches**.
-
 # License
 *SSPROP-NFOL* codes are licensed under **GPL v3**.
 
